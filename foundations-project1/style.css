@@ -1,0 +1,81 @@
+.roboto-hero-main {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.roboto-hero-secondary {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+a, .footer {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.logo {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    size: 20px;
+}
+
+.header-links {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    gap: 12px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.information {
+    
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+}
+
+.calltoaction {
+    background-color: #3882f6;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+}
