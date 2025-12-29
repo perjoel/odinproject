@@ -58,10 +58,10 @@ a,
     display: flex;
     flex: 1;
     justify-content: flex-end;
-    gap: 12px;
+    gap: 15px;
     font-size: 18px;
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 50px;
 }
 
 .hero {
@@ -70,6 +70,7 @@ a,
     flex: 1;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 60px;
     align-items: center;
     justify-content: space-around;
 }
@@ -95,7 +96,7 @@ a,
     display: flex;
     margin-top: 10px;
     margin-left: 10px;
-    margin-bottom: 50px;
+    
 }
 
 .information {
@@ -164,7 +165,7 @@ a,
     align-items: center;
     justify-content: space-around;
     gap: 20px;
-    margin: 50px;
+    margin: 60px;
     padding: 50px;
     border-radius: 10px;
     align-self: center;
